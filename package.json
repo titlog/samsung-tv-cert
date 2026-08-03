@@ -3,24 +3,43 @@
   "version": "1.0.0",
   "description": "Issue Samsung TV author + distributor certificates from the command line. No Eclipse, no Certificate Manager GUI, no sudo.",
   "type": "module",
-  "bin": { "samsung-tv-cert": "./index.mjs" },
+  "bin": {
+    "samsung-tv-cert": "index.mjs"
+  },
   "main": "index.mjs",
-  "files": ["index.mjs", "README.md", "LICENSE"],
-  "engines": { "node": ">=18" },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node index.mjs"
   },
   "keywords": [
-    "samsung", "tizen", "tizen-tv", "samsung-tv", "smart-tv",
-    "certificate", "sideload", "wgt", "code-signing", "duid",
-    "tizen-studio", "jellyfin-tizen"
+    "samsung",
+    "tizen",
+    "tizen-tv",
+    "samsung-tv",
+    "smart-tv",
+    "certificate",
+    "sideload",
+    "wgt",
+    "code-signing",
+    "duid",
+    "tizen-studio",
+    "jellyfin-tizen"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/titlog/samsung-tv-cert.git"
   },
   "homepage": "https://github.com/titlog/samsung-tv-cert#readme",
-  "bugs": { "url": "https://github.com/titlog/samsung-tv-cert/issues" },
+  "bugs": {
+    "url": "https://github.com/titlog/samsung-tv-cert/issues"
+  },
   "author": "titlog",
   "license": "MIT",
   "dependencies": {
