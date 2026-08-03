@@ -1,5 +1,9 @@
 # samsung-tv-cert
 
+[![npm](https://img.shields.io/npm/v/samsung-tv-cert.svg)](https://www.npmjs.com/package/samsung-tv-cert)
+[![node](https://img.shields.io/node/v/samsung-tv-cert.svg)](https://www.npmjs.com/package/samsung-tv-cert)
+[![license](https://img.shields.io/npm/l/samsung-tv-cert.svg)](LICENSE)
+
 **[English](#english) · [中文](#中文)**
 
 Issue Samsung TV **author + distributor certificates** from the command line.
