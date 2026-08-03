@@ -1,0 +1,8 @@
+node_modules/
+*.p12
+*.pri
+*.csr
+*.crt
+*.cer
+device-profile.xml
+.DS_Store
