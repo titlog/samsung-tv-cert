@@ -13,8 +13,15 @@
   "keywords": [
     "samsung", "tizen", "tizen-tv", "samsung-tv", "smart-tv",
     "certificate", "sideload", "wgt", "code-signing", "duid",
-    "tizen-studio", "webos-alternative"
+    "tizen-studio", "jellyfin-tizen"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titlog/samsung-tv-cert.git"
+  },
+  "homepage": "https://github.com/titlog/samsung-tv-cert#readme",
+  "bugs": { "url": "https://github.com/titlog/samsung-tv-cert/issues" },
+  "author": "titlog",
   "license": "MIT",
   "dependencies": {
     "node-forge": "^1.3.1"
