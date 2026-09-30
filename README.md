@@ -143,6 +143,10 @@ Built while writing a [bilibili client for Samsung TVs](https://github.com/titlo
 where the certificate step was the single largest obstacle to anyone else being
 able to install it.
 
+Once your app is signed and installed, [tizen-tv-notes](https://github.com/titlog/tizen-tv-notes)
+collects what building one for these TVs actually involves: logging on a retail set,
+CSP mode, the single hardware decoder, MSE.
+
 ### Licence
 
 MIT. Not affiliated with Samsung. Uses Samsung's own developer certificate
@@ -248,6 +252,9 @@ tizen package -t wgt -s MyProfile -- .
 
 写[三星电视上的 bilibili 客户端](https://github.com/titlog/bilibili-tizen)时顺手做的
 —— 证书这一步是别人想装上它的最大障碍。
+
+签好、装上之后，给这些电视写应用会撞上的坑（零售机上怎么拿日志、CSP 模式、只有一个
+硬件解码器、MSE）整理在 [tizen-tv-notes](https://github.com/titlog/tizen-tv-notes)。
 
 ### 协议
 
